@@ -6,7 +6,7 @@ Introduction: We have given n number of eggs and f number of floors. We do not k
 
 ![image](https://user-images.githubusercontent.com/92689432/228456652-5f09c1a4-b9c3-4f74-90b4-7650c3938af8.png)
 
-Here, in the figure we have a floor with k blocks and we have n number of eggs, now we have to find the minimum number of attempts to find the critical floor. Suppose, if we drop an egg from floor c, we have two situations either the egg survives or the egg break. If it breaks: we have to check for (k-c) floor with n-1 number of eggs If it survives: we have to check for k-1 floor with n number of eggs We have to find the critical floor from where if we drop an egg will not break, if we drop an egg from higher floor than the critical floor the egg breaks. All the eggs are identical, they follow the same properties.
+Here, in the figure we have a floor with k blocks and we have n number of eggs, and now we have to find the minimum number of attempts to find the critical floor. Suppose, if we drop an egg from floor c, we have two situations either the egg survives or the egg break. If it breaks: we have to check for (k-c) floor with n-1 number of eggs If it survives: we have to check for k-1 floor with n number of eggs We have to find the critical floor from where if we drop an egg will not break, if we drop an egg from higher floor than the critical floor the egg breaks. All the eggs are identical, they follow the same properties.
 
 Each egg breaks only if it is dropped from a certain floor or above.
 An egg that is not broken after being dropped from a floor can be used to drop again. We assume the following details:
